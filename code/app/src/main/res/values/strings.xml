@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">eHealth</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+
+    <string name="msg_no_patients">No patients found!</string>
+    <string name="lbl_new_patient_title">New Patient</string>
+    <string name="lbl_edit_patient_title">Edit Patient</string>
+    <string name="hint_enter_patient">Enter patient name!</string>
+    <string name="hint_enter_age">Age</string>
+    <string name="hint_enter_id">Personal id</string>
+
+</resources>

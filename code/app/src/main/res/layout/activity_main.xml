@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/login_background">
+
+    <ImageView
+        android:id="@+id/imgViewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@mipmap/ic_redcross"
+        />
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittexttop"
+        android:ems="10"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:hint="@string/hint_username"
+        android:drawablePadding="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_below="@id/imgViewLogin"
+        android:drawableStart="@mipmap/ic_username"
+        android:drawableLeft="@mipmap/ic_username"
+        android:singleLine="true" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/edtUsername"
+        android:background="#CCCCCC"></View>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittextbottom"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:layout_below="@id/view1"
+        android:cursorVisible="true"
+        android:textSize="20sp"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:drawablePadding="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@mipmap/ic_password"
+        android:drawableLeft="@mipmap/ic_password"
+        android:singleLine="true"
+         />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/edtPassword"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/btn_login"/>
+
+    <ImageView
+        android:id="@+id/imgViewBK"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@mipmap/ic_bkhn"
+        />
+
+
+</RelativeLayout>
